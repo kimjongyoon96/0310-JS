@@ -139,8 +139,9 @@ root.children[1].children[5].style.top="0";
 // 3. 즉, 변수자리에 있는 함수=콜백함수를 실행하라는 뜻이다.
 // 4. 이렇게 되면, 콜백함수가 실행되어서 팀원들의 이름은 사라지고
 // 5. 팀장을 반짝반짝 하게 만들어줄수 있다.
-document.getElementById("root")
-    .addEventListener("click", function() {
+let a =root.children[1]
+// document.getElementById("root")
+    a.addEventListener("click", function() {
    root.children[1].children[1].style.display="none";
    root.children[1].children[2].style.display="none";
    root.children[1].children[3].style.display="none";
